@@ -9,5 +9,5 @@ botao_cadastro = st.button("cadastrar cliente")
 
 if botao_cadastro:
     with open("clientes.csv","a") as arquivo:
-        arquivo.write(f"{nome},{endereco},{data_de_cadastro},{tipo_cliente}")
+        arquivo.write(f"{nome},{endereco},{data_de_cadastro},{tipo_cliente}/n")
         st.success("cliente cadastrado com sucesso ")
