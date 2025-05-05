@@ -1,7 +1,6 @@
 import streamlit as st
 import csv 
 import pandas as pd
-from tabulate import tabulate 
 st.title("Cadastro de clientes")
 
 nome = st.text_input("digite o nome do cliente:")
